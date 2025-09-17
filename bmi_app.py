@@ -42,6 +42,7 @@ def update_bmi(height, weight):
         return "", "", "", "数値を正しく入力してください。"
 if __name__ == '__main__':
     webbrowser.open("http://127.0.0.1:8050/")
-    app.run(debug=False)
+    app.run(debug=False,host="0.0.0.0",port=10000)
+
 
 
