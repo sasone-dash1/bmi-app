@@ -1,3 +1,2 @@
 ﻿dash
-math
-webbrowser
+dash-bootstrap-components
